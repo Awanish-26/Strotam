@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -27,8 +28,30 @@ audio::-webkit-media-controls-toggle-closed-captions-button */
     padding: 2rem 1.8rem;
 }
 
-.side-panel ul{
+.side-panel li{
     list-style: none;
+    margin-block: 1rem;
+    padding: 10px 8px;
+    border-radius: 6px;
+    background-color: #dadada;
+    border: 2px solid transparent;
+}
+
+.side-panel li:hover{
+    border: 2px solid #aaaaaa;
+    transition: all 0.2s ease;
+}
+
+.side-panel li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.active{
+    transform: translateX(-24rem);
+    transition: all 0.2s ease;
 }
 
 .container{
