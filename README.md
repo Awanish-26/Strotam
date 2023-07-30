@@ -27,7 +27,7 @@ To use this website, you can either visit the live version hosted on GitHub Page
 
 **Option 1: Accessing the Live Version**
 1. Open your web browser.
-2. Go to [[https://your-username.github.io/bhakti-strotam-website/](https://awanish-26.github.io/Strotam/)]
+2. Go to [[https://awanish-26.github.io/Strotam/](https://awanish-26.github.io/Strotam/)]
 
 **Option 2: Cloning the Repository**
 1. Click on the "Code" button on the GitHub repository page.
