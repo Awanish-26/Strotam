@@ -28,6 +28,12 @@ audio::-webkit-media-controls-toggle-closed-captions-button */
     padding: 2rem 1.8rem;
 }
 
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 24rem;
+}
+
 .side-panel li{
     list-style: none;
     margin-block: 1rem;
