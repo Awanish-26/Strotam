@@ -45,7 +45,6 @@ header{
     position: fixed;
     left: 0;
     height: 100%;
-    padding: 4rem 1.8rem;
     transform: translateX(-23rem);
     transition: all 0.2s ease-in-out;
 }
@@ -53,8 +52,13 @@ header{
 .icon{
     position: fixed;
     z-index: 5;
+    width: auto;
     top: 1.2rem;
     left: 2rem;
+}
+
+.link{
+    margin: 5rem 1rem;
 }
 
 .side-panel li{
@@ -106,5 +110,8 @@ header{
     }
     .active{
         width: 100%;
+    }
+    .side-panel li a{
+        font-size: 1rem;
     }
 }
