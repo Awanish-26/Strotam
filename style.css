@@ -23,6 +23,9 @@ audio::-webkit-media-controls-toggle-closed-captions-button */
 
 header{
     display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
     justify-content: center;
     background-color: #aaaaaa;
 }
@@ -33,7 +36,7 @@ header{
 
 .heading h1{
     margin: 0.8rem;
-    font-family: 'Poppins', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
 }
 
@@ -82,6 +85,7 @@ header{
 
 .container{
     display: flex;
+    margin-top: 3.6rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
