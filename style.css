@@ -21,18 +21,37 @@ audio::-webkit-media-controls-rewind-button
 audio::-webkit-media-controls-return-to-realtime-button
 audio::-webkit-media-controls-toggle-closed-captions-button */
 
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #aaaaaa;
+}
+
+.heading{
+    margin-inline:auto ;
+}
+
+.heading h1{
+    margin: 0.8rem;
+    font-family: 'Poppins', serif;
+    letter-spacing: 4px;
+}
+
 .side-panel{
     background-color: #ffffff;
-    position: fixed;
+    position: absolute;
+    left: 0;
     height: 100%;
-    padding: 2rem 1.8rem;
+    padding: 4rem 1.8rem;
     transform: translateX(-23rem);
+    transition: all 0.2s ease-in-out;
 }
 
 .icon{
-    position: absolute;
-    top: 10px;
-    left: 24rem;
+    position: fixed;
+    z-index: 5;
+    top: 1.4rem;
+    left: 2rem;
 }
 
 .side-panel li{
