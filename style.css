@@ -80,6 +80,10 @@ header{
     justify-content: center;
 }
 
+audio{
+    z-index: -1;
+}
+
 .container h1,p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
